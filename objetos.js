@@ -51,27 +51,39 @@ const casa = {
 */
 
 
-
-
-
-
-
-
-
 /*
 Objetos II
 1. ¿Qué es un constructor?
+Nos permite armar un molde y dentro de el todo los objetos que queramos
+
+
 2. ¿Qué  entendes por la palabra reservada This?
+Hace referencia al objeto. Permite "llamar" la key 
+
 3. Crea los constructores correspondientes a Autor, Libro, Piso y Casa.
 4. Crea un objeto a partir de cada Constructor.
 5. ¿Qué es un método? Y ¿cuál es la principal diferencia con una función?
+Los metodos son funciones que se le asignan a las key. 
+
 6. ¿Cuál es la diferencia entre un getter y un setter? Crea un constructor y dame dos ejemplos de cada uno.
+Getter: permite acceder al valor de un atributo
+Setter: permite fijar el valor de un atributo
+
 7. Crea un constructor que se llame CajeroAutomático. Tendrá un numeroCuenta (string), monto (number); y los métodos:
    a) mostrarEfectivo: Muestra la cantidad actual
    b) sacarEfectivo: Le ingresas un valor y lo resta al total. Debe considerar que no puede sacar mas de lo que tiene.
    c) ingresarEfectivo: Le ingresas un valor y lo suma al total.
    * Nota: Para el punto b y c considerá que, luego de hacer la operación deberás reutilizar mostrarEfectivo.
-8. Crea un constructor que se llame EquipoFutbol. Tendrá un nombre (string), nombreDT (string), coloresCamiseta (string). Generá al menos 3 objetos "equipo"
+*/
+
+function CajeroAutomático () {
+   numeroCuenta = "1234";
+   monto = 20000;
+}
+
+
+/*
+   8. Crea un constructor que se llame EquipoFutbol. Tendrá un nombre (string), nombreDT (string), coloresCamiseta (string). Generá al menos 3 objetos "equipo"
 9. Crea un constructor llamado TablaPosiciones. Tendrá una posicion (number), un equipo (EquipoFutbol), golesAFavor (number),  golesEnContra (number).
 10. Crea un objeto llamado tabla. Será un único objeto y contendrá a todos los objetos que creaste a partir del EquipoFutbol.
 
